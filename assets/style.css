@@ -84,6 +84,7 @@ footer p {
     margin-top: 0.5rem;
 }
 
+<<<<<<< HEAD
 @media (max-width: 560 px) {
 
     body {
@@ -99,3 +100,21 @@ footer p {
         font-size: 3.8vw;
     }
 }
+=======
+@media (max-width: 560 px) {
+
+    body {
+        background: url('img/bd-mobile.webp');
+    }
+    .cartao {
+        flex: 1 0 calc(100% - 1rem);
+    }
+    .cartao__conteudo h3 {
+        font-size: 3vw;
+    }
+    .cartao__conteudo p {
+        font-size: 3.8vw;
+    }
+}
+
+>>>>>>> efa8e2739094423d4738ad46faeab995644f3aeb
